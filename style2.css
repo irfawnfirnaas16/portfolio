@@ -1,0 +1,110 @@
+header
+{
+background: #111;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+}
+.nav-links li 
+{
+    margin-left: 20px;
+}
+.nav-links
+{
+    display: flex;
+}
+.nav-links a
+{
+    color: darkorange;
+    text-decoration: none;
+}
+.hero
+{
+    background-color:darkorange;
+    padding: 10%;
+}
+.hero-content
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+.btn
+{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #111;
+    color: white;
+    cursor: pointer;
+}
+.btn :hover
+{
+background-color: darkorange;
+}
+.nav-links a:hover
+{
+    color: darkorange;
+}
+.me
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 4px;
+}
+.talents
+{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorange;
+    padding: 4px;
+}
+.skills-container
+{
+    justify-content: center;
+    color: darkorange;
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px;
+}
+.section
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.project-card
+{
+    padding: 20px;
+    background:darkorange;
+    border-radius: 10px;
+}
+.section2
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorange;
+    background-color: #111;
+}
+.contact-form
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    justify-content: center;
+    margin: auto;
+    padding: 2px;
+}
+.contact-form input,
+.contact-form textarea 
+{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
